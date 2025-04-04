@@ -2,6 +2,7 @@ In this project all at once! We have implemented a website to solve the above-me
 
 
 1. Frontend and Backend
+   
 HTML: HTML is a mark-up language which is used for creating attractive web pages with the help of styling, and which looks in a nice format on a web browser. An HTML document is made of many HTML tags and each HTML tag contains different content. There were many HTML tags that we used for our project. Webpages are usually viewed in a web browser. They can include writing, links, pictures, and even sound and video. HTML is used to mark and describe each of these kinds of content so the web browser can display them correctly. HTML also adds meta information to a webpage. Meta information is usually not shown by web browsers and is data about the web page, e.g., the name of the person who created the page.
 
 CSS: Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a mark-up language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .CSS file which reduces complexity and repetition in the structural content as well as enabling the .CSS file to be cached to improve the page load speed between the pages that share the file and its formatting.
@@ -13,6 +14,7 @@ Django: Django is a Python-based free and open-source web framework that follows
 Mongo DB: MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server-Side Public License (SSPL).
 
 3. Libraries used
+   
 Pymongo: The PyMongo distribution contains tools for interacting with MongoDB database from Python.
 
 HTTP response: HttpResponse (source code) provides an inbound HTTP request to a Django web application with a text response. This class is most frequently used as a return object from a Django view.
