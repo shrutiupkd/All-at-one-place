@@ -3,19 +3,30 @@ In this project all at once! We have implemented a website to solve the above-me
 
 1. Frontend and Backend
 HTML: HTML is a mark-up language which is used for creating attractive web pages with the help of styling, and which looks in a nice format on a web browser. An HTML document is made of many HTML tags and each HTML tag contains different content. There were many HTML tags that we used for our project. Webpages are usually viewed in a web browser. They can include writing, links, pictures, and even sound and video. HTML is used to mark and describe each of these kinds of content so the web browser can display them correctly. HTML also adds meta information to a webpage. Meta information is usually not shown by web browsers and is data about the web page, e.g., the name of the person who created the page.
+
 CSS: Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a mark-up language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .CSS file which reduces complexity and repetition in the structural content as well as enabling the .CSS file to be cached to improve the page load speed between the pages that share the file and its formatting.
+
 JavaScript: JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles. JavaScript runs on the client side of the web, which can be used to design / program how the web pages behave on the occurrence of an event. JavaScript is an easy to learn and powerful scripting language, widely used for controlling web page behavior.
+
 Django: Django is a Python-based free and open-source web framework that follows the model–template–views (MTV) architectural pattern. It is maintained by the Django Software Foundation (DSF), an American independent organization established as a non-profit. Django's primary goal is to ease the creation of complex, database-driven websites. The framework emphasizes reusability and "pluggability" of components, less code, low coupling, rapid development, and the principle of don't repeat yourself.
+
 Mongo DB: MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server-Side Public License (SSPL).
 
-2. Libraries used
+3. Libraries used
 Pymongo: The PyMongo distribution contains tools for interacting with MongoDB database from Python.
+
 HTTP response: HttpResponse (source code) provides an inbound HTTP request to a Django web application with a text response. This class is most frequently used as a return object from a Django view.
+
 Settings: import settings will import the first python module named settings.py found in sys. path . Usually (in default django setups) it allows access only to your site defined settings file, which overwrites django default settings
+
 Loader: Loads templates from a given source, such as the filesystem or a database. get_template_sources (template_name)[source] A method that takes a template_name and yields Origin instances for each possible source. For example, the filesystem loader may receive 'index.
+
 Render: Rendering means interpolating the template with context data and returning the resulting string. The Django template language is Django's own template system.
+
 Messages: The messages framework allows you to temporarily store messages in one request and retrieve them for display in a subsequent request (usually the next one). Every message is tagged with a specific level that determines its priority (e.g., info , warning , or error ).
+
 Path: The path function is contained with the django. urls module within the Django project code base. path is used for routing URLs to the appropriate view functions within a Django application using the URL dispatcher.
+
 Os: django-environ is the Python package that allows you to use Twelve-factor methodology to configure your Django application with environment variables
 
 
